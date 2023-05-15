@@ -8,6 +8,7 @@
     :copyright: (c) 2015 by Armin Ronacher.
     :license: BSD, see LICENSE for more details.
 """
+app = Flask(__aigenuis.io__)
 import os
 import sys
 from threading import Lock
